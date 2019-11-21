@@ -97,10 +97,10 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.arcoCV.Enabled = true;
-            this.arcoCV.Location = new System.Drawing.Point(24, 88);
+            this.arcoCV.Location = new System.Drawing.Point(24, 100);
             this.arcoCV.Name = "arcoCV";
             this.arcoCV.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("arcoCV.OcxState")));
-            this.arcoCV.Size = new System.Drawing.Size(602, 425);
+            this.arcoCV.Size = new System.Drawing.Size(602, 413);
             this.arcoCV.TabIndex = 5;
             // 
             // frmChiTiet

@@ -24,6 +24,9 @@ namespace WindowsFormsApplication1
         private TrangThai tt = TrangThai.DSLoc;
         private int maQuyen;
 
+        //tai khoan dang nhap vao he thong
+        public clsTaiKhoan taikhoan = null;
+
 
         public frmChinh(int maQ)
         {
@@ -479,6 +482,14 @@ namespace WindowsFormsApplication1
         {
 
         }
+
+        private void btnDoiMK_Click(object sender, EventArgs e)
+        {
+            src.Boundarys.frmDoiMatKhau frmDoiMatKhau = new src.Boundarys.frmDoiMatKhau(taikhoan._StrUsername);
+            frmDoiMatKhau.ShowDialog();
+        }
+
+       
 
       
 

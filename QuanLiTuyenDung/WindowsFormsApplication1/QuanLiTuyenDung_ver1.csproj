@@ -71,6 +71,12 @@
     <Compile Include="src\Boundarys\frmDangTin.Designer.cs">
       <DependentUpon>frmDangTin.cs</DependentUpon>
     </Compile>
+    <Compile Include="src\Boundarys\frmDoiMatKhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\Boundarys\frmDoiMatKhau.Designer.cs">
+      <DependentUpon>frmDoiMatKhau.cs</DependentUpon>
+    </Compile>
     <Compile Include="src\Boundarys\frmLichPhongVan.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -142,6 +148,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="src\Boundarys\frmDangTin.resx">
       <DependentUpon>frmDangTin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\Boundarys\frmDoiMatKhau.resx">
+      <DependentUpon>frmDoiMatKhau.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="src\Boundarys\frmLichPhongVan.resx">
       <DependentUpon>frmLichPhongVan.cs</DependentUpon>

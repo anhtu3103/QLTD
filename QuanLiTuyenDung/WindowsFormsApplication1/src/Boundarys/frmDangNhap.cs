@@ -25,10 +25,17 @@ namespace WindowsFormsApplication1
             if (txtUser.Text == "" || txtPass.Text == "")
             {
                 MessageBox.Show("Hãy nhập đầy đủ thông tin Username và Password!!");
+                return;
             }
-            else if (KiemTraTaiKhoan(txtUser.Text, txtPass.Text) != null)
+            
+            var check = KiemTraTaiKhoan(txtUser.Text, txtPass.Text);
+            if (check != null) // dung tai khoan va mat khau
             {
                 frmChinh frmC = new frmChinh((int)KiemTraTaiKhoan(txtUser.Text, txtPass.Text).MaRole_R);
+
+                //ánh xạ tài khoản qa form chính
+                frmC.taikhoan = new clsTaiKhoan((int)check.ID_NV, check.Usernames, check.Passwords, (int)check.MaRole_R);
+
                 frmC.IsMdiContainer = true;
                 this.Hide();
                 frmC.ShowDialog();

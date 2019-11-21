@@ -205,3 +205,4 @@ C:\Users\Administrator\Desktop\PTUD\code_new\qltd-master\QuanLiTuyenDung\Windows
 C:\Users\Administrator\Desktop\PTUD\code_new\qltd-master\QuanLiTuyenDung\WindowsFormsApplication1\obj\Debug\Interop.AcroPDFLib.dll
 C:\Users\Administrator\Desktop\PTUD\code_new\qltd-master\QuanLiTuyenDung\WindowsFormsApplication1\obj\Debug\AxInterop.AcroPDFLib.dll
 C:\Users\Administrator\Desktop\PTUD\code_new\qltd-master\QuanLiTuyenDung\WindowsFormsApplication1\obj\Debug\QuanLiTuyenDung_ver1.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\PTUD\code_new\qltd-master\QuanLiTuyenDung\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.src.Boundarys.frmDoiMatKhau.resources

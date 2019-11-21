@@ -59,5 +59,25 @@ namespace WindowsFormsApplication1.src.Services
 
             }
         }
+        public bool DoiMatKhau(string username, string newPassword)
+        {
+            System.Data.Common.DbTransaction suaTran = db.Connection.BeginTransaction();
+            try
+            {
+                db.Transaction = suaTran;
+                var s = db.tblTAIKHOANs.Where(t => t.Usernames == username).FirstOrDefault();
+
+                s.Passwords = newPassword;
+                db.SubmitChanges();
+
+                db.Transaction.Commit();
+                return true;
+            }
+            catch
+            {
+                db.Transaction.Rollback();
+                return false;
+            }
+        }
     }
 }
